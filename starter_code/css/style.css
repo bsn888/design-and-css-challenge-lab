@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
 
@@ -64,11 +63,43 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  background-color: gray;
 
 }
 
-header {
+#benefits {
+  font-family: Light-Italic;
+  font-size: 13px;
+  text-align: left;
+  color: white;
+  background: center;
+  background-color: white;
+  display: inline-block;
 
+}
+
+#amanda {
+  font-family: Light-Italic;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: center;
+  display: inline-block;
+}
+
+#name {
+  font-family: Semibold;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: center;
+  display: inline-block;
+}
+header {
+background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+background-image: center;
+height: 100%;
+width: 100%;
 }
 
 footer {
